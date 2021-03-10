@@ -1,0 +1,16 @@
+$primary: #00fa9a;
+$secondary: #e9967a;
+
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+
+$body-bg: #fefefe;
+
+:export {
+  breakpointXs: map-get($grid-breakpoints, "xs");
+  breakpointSm: map-get($grid-breakpoints, "sm");
+  breakpointMd: map-get($grid-breakpoints, "md");
+  breakpointLg: map-get($grid-breakpoints, "lg");
+  breakpointXl: map-get($grid-breakpoints, "xl");
+  breakpointXxl: map-get($grid-breakpoints, "xxl");
+}

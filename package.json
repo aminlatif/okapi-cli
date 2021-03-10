@@ -1,0 +1,36 @@
+{
+  "name": "@babirusa/okapi-cli",
+  "version": "0.1.0",
+  "description": "",
+  "bin": {
+    "okapi": "bin/okapi.js"
+  },
+  "keywords": [
+    "okapi",
+    "cli"
+  ],
+  "author": "Amin Latifkar <amin.latifkar@gmail.com>",
+  "license": "MIT",
+  "files": [
+    "bin",
+    "lib",
+    "presets",
+    "package.json"
+  ],
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^7.1.0",
+    "fs-extra": "^9.1.0",
+    "inquirer": "^8.0.0",
+    "leven": "^3.1.0",
+    "minimist": "^1.2.5",
+    "read-pkg": "^5.2.0",
+    "semver": "^7.3.4",
+    "slash": "^3.0.0",
+    "validate-npm-package-name": "^3.0.0"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": "^12.0.0 || >= 14.0.0"
+  }
+}
