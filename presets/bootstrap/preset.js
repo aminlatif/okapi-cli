@@ -27,7 +27,7 @@ exports.bootstrapPreset = () => ({
       "eslint-plugin-node": {},
       "eslint-plugin-promise": {},
       "eslint-plugin-standard": {},
-      "node-sass": {},
+      "sass": {},
       "typescript": {},
       "@popperjs/core": {},
       "bootstrap": {
